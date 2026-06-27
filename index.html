@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patani Yash Cakes</title>
+    <meta name="description" content="Modern cake shop website for custom cakes, birthdays, weddings, cupcakes, and fast local delivery.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-mark"><i class="fa-solid fa-cake-candles"></i></span>
+                Patani Yash Cakes
+            </a>
+
+            <button class="navbar-toggler menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cakes">Cakes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link nav-cta" href="#order">Order Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="hero-copy reveal">
+                            <span class="eyebrow">Fresh daily, made to order</span>
+                            <h1>Celebration cakes with a little extra wow.</h1>
+                            <p>Custom birthday, wedding, anniversary, and dessert-table cakes baked with premium ingredients and styled for your moment.</p>
+                            <div class="hero-actions">
+                                <a href="#order" class="btn btn-primary-custom">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    Start Order
+                                </a>
+                                <a href="#cakes" class="btn btn-soft">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                    Explore Menu
+                                </a>
+                            </div>
+                            <div class="stats" aria-label="Shop highlights">
+                                <div><strong>4.9</strong><span>Customer rating</span></div>
+                                <div><strong>24h</strong><span>Quick orders</span></div>
+                                <div><strong>100+</strong><span>Custom designs</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hero-visual reveal delay-1">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85" class="hero-img main-cake" alt="Chocolate layer cake with berries">
+                            <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=650&q=85" class="hero-img side-cake" alt="Cupcakes with frosting">
+                            <div class="floating-card top-card">
+                                <i class="fa-solid fa-star"></i>
+                                <span>Best seller</span>
+                            </div>
+                            <div class="floating-card bottom-card">
+                                <i class="fa-solid fa-truck-fast"></i>
+                                <span>Local delivery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-strip" aria-label="Ordering highlights">
+            <div class="container">
+                <div class="strip-grid">
+                    <div><i class="fa-solid fa-bowl-food"></i><span>Eggless options</span></div>
+                    <div><i class="fa-solid fa-palette"></i><span>Theme designs</span></div>
+                    <div><i class="fa-solid fa-box-open"></i><span>Secure packaging</span></div>
+                    <div><i class="fa-solid fa-clock"></i><span>Same-day pickup</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-pad" id="cakes">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Pick your celebration</span>
+                    <h2>Signature cake categories</h2>
+                    <p>Choose a classic, personalize the finish, or share a reference and we will shape the cake around your event.</p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-3 reveal">
+                        <article class="category-card">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <h3>Birthday</h3>
+                            <p>Colorful themes, names, toppers, and photo cakes.</p>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 reveal delay-1">
+                        <article class="category-card">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>Anniversary</h3>
+                            <p>Elegant textures, florals, and romantic flavors.</p>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 reveal delay-2">
+                        <article class="category-card">
+                            <i class="fa-solid fa-ring"></i>
+                            <h3>Wedding</h3>
+                            <p>Tiered cakes, clean finishes, and premium detailing.</p>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 reveal delay-3">
+                        <article class="category-card">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <h3>Cupcakes</h3>
+                            <p>Mini desserts for parties, gifts, and dessert boxes.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured section-pad" id="gallery">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Popular right now</span>
+                    <h2>Fresh favorites</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <article class="cake-card">
+                            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=85" alt="Chocolate cake with candles">
+                            <div class="cake-content">
+                                <span>Rich cocoa sponge</span>
+                                <h3>Chocolate Cake</h3>
+                                <div class="cake-footer">
+                                    <strong>Rs. 899</strong>
+                                    <a href="#order" aria-label="Order chocolate cake"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal delay-1">
+                        <article class="cake-card">
+                            <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Red velvet cake slice">
+                            <div class="cake-content">
+                                <span>Cream cheese finish</span>
+                                <h3>Red Velvet</h3>
+                                <div class="cake-footer">
+                                    <strong>Rs. 999</strong>
+                                    <a href="#order" aria-label="Order red velvet cake"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal delay-2">
+                        <article class="cake-card">
+                            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=85" alt="Assorted cupcakes">
+                            <div class="cake-content">
+                                <span>Seasonal fruit topping</span>
+                                <h3>Fruit Cake</h3>
+                                <div class="cake-footer">
+                                    <strong>Rs. 1099</strong>
+                                    <a href="#order" aria-label="Order fruit cake"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews section-pad" id="reviews">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-5 reveal">
+                        <span class="eyebrow">Loved by customers</span>
+                        <h2>Designed for smiles before the first slice.</h2>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="review-strip reveal delay-1">
+                            <div class="review-card">
+                                <div class="stars" aria-label="5 out of 5 stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"Beautiful design and very fresh taste. The cake became the highlight of our birthday party."</p>
+                                <strong>- Priya S.</strong>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars" aria-label="5 out of 5 stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"Fast delivery, clean packaging, and exactly like the reference photo."</p>
+                                <strong>- Rahul M.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="order-section section-pad">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 reveal">
+                        <div class="order-media">
+                            <img src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?auto=format&fit=crop&w=900&q=85" alt="Decorated cake with berries">
+                            <div class="order-note">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Share your theme, color, flavor, and date.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 reveal delay-1">
+                        <form class="order-form" novalidate>
+                            <span class="eyebrow">Custom order</span>
+                            <h2>Tell us about your cake</h2>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone number" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email address" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select" required>
+                                        <option value="">Occasion</option>
+                                        <option>Birthday</option>
+                                        <option>Wedding</option>
+                                        <option>Anniversary</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="Cake flavor, weight, theme, delivery date..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary-custom w-100" type="submit">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        Submit Request
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2>Patani Yash Cakes</h2>
+                    <p>Fresh cakes, custom orders, cupcakes, and fast local delivery.</p>
+                </div>
+                <div>
+                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> +91 98765 43210</a>
+                    <a href="tel:+919876543210"><i class="fa-solid fa-phone"></i> Call shop</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Your Shop Address</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="floating-btn top-btn" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <a class="floating-btn whatsapp-btn" href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
